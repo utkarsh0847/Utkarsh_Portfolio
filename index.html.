@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utkarsh Varshney | Video Editor</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<div class="hero-text">
+
+<h1>UTKARSH VARSHNEY</h1>
+
+<h2>Professional Video Editor & Motion Graphics Designer</h2>
+
+<p>
+Creating cinematic stories, engaging reels, brand commercials,
+motion graphics and high-retention content that captures attention
+and drives results.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#portfolio" class="btn-primary">
+View Portfolio
+</a>
+
+<a href="https://wa.me/918476020811" class="btn-secondary">
+Contact Me
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="profile.jpg" alt="Utkarsh Varshney">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+I'm Utkarsh Varshney, a 19-year-old video editor from Aligarh,
+Uttar Pradesh, specializing in documentary-style storytelling,
+motion graphics, and trending reels.
+
+With 5 months of professional experience in a company and over
+2 years of hands-on video editing experience, I transform raw
+footage into engaging and meaningful visual content.
+
+My goal is to become a successful content creator and help brands,
+businesses, and creators grow through powerful, story-driven videos
+that capture attention and leave a lasting impact.
+</p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section class="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+<h3>Video Editing</h3>
+
+<ul>
+<li>Adobe Premiere Pro</li>
+<li>Adobe After Effects</li>
+<li>Documentary Style Editing</li>
+<li>Reels & Short Form Content</li>
+<li>YouTube Video Editing</li>
+<li>Wedding & Pre-Wedding Films</li>
+<li>Commercial Brand Videos</li>
+</ul>
+
+</div>
+
+<div class="skill-card">
+
+<h3>Motion Graphics</h3>
+
+<ul>
+<li>Motion Graphics Design</li>
+<li>Text Animations</li>
+<li>Kinetic Typography</li>
+<li>Logo Animations</li>
+<li>Social Media Motion Content</li>
+</ul>
+
+</div>
+
+<div class="skill-card">
+
+<h3>Creative Skills</h3>
+
+<ul>
+<li>Color Correction</li>
+<li>Color Grading</li>
+<li>Sound Design</li>
+<li>Visual Effects</li>
+<li>Storytelling</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="portfolio">
+
+<h2 class="section-title">Portfolio</h2>
+
+<!-- Motion Graphics -->
+
+<div class="portfolio-category">
+
+<h3>Motion Graphics</h3>
+
+<div class="video-grid">
+
+<div class="video-card"
+onclick="openVideo('https://www.youtube.com/embed/Fhd9chB3bR8')">
+<img src="https://img.youtube.com/vi/Fhd9chB3bR8/maxresdefault.jpg">
+</div>
+
+<div class="video-card"
+onclick="openVideo('https://www.youtube.com/embed/9QXNx5JILYU')">
+<img src="https://img.youtube.com/vi/9QXNx5JILYU/maxresdefault.jpg">
+</div>
+
+<div class="video-card"
+onclick="openVideo('https://www.youtube.com/embed/jVAKQ81RWk0')">
+<img src="https://img.youtube.com/vi/jVAKQ81RWk0/maxresdefault.jpg">
+</div>
+
+<div class="video-card"
+onclick="openVideo('https://www.youtube.com/embed/JTl_OGHnzXU')">
+<img src="https://img.youtube.com/vi/JTl_OGHnzXU/maxresdefault.jpg">
+</div>
+
+</div>
+
+</div>
+
+<!-- AI VIDEOS -->
+
+<div class="portfolio-category">
+
+<h3>AI Videos</h3>
+
+<div class="video-grid">
+
+<div class="video-card"
+onclick="openVideo('https://www.youtube.com/embed/-Lzgi48LvvQ')">
+
+<img src="https://img.youtube.com/vi/-Lzgi48LvvQ/maxresdefault.jpg">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- OTHER CATEGORIES -->
+
+<div class="portfolio-category">
+<h3>Clothing Brand Videos</h3>
+<div class="video-grid">
+<div class="video-card placeholder">
+Coming Soon
+</div>
+<div class="video-card placeholder">
+Coming Soon
+</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>College & School Edits</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>School Events</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Real Estate Videos</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Travel Agency Edits</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Explainer Videos</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Product Promotional Videos</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Bar Promotional Videos</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+<div class="portfolio-category">
+<h3>Wedding & Pre-Wedding Films</h3>
+<div class="video-grid">
+<div class="video-card placeholder">Coming Soon</div>
+</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<p>Email: utkarshgotewal@gmail.com</p>
+
+<p>WhatsApp: +91 8476020811</p>
+
+<a href="https://wa.me/918476020811" class="btn-primary">
+Let's Work Together
+</a>
+
+</section>
+
+<!-- POPUP PLAYER -->
+
+<div id="videoPopup" class="popup">
+
+<div class="popup-content">
+
+<span class="close-btn" onclick="closeVideo()">
+&times;
+</span>
+
+<iframe
+id="popupVideo"
+src=""
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Utkarsh Varshney | Portfolio Website
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
